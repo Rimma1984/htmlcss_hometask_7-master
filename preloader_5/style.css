@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.preloader {
+    width: 200px;
+    height: 200px;
+    background-color: #e74c3c; }
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c;
+    border-radius: 50%;
+    border: 4px solid pink;
+    margin: 25px auto;
+    animation-name: round;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.ball {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 7px;
+}
+@keyframes round {
+    0% { 
+transform: rotate(0deg);
+    }
+    100% { transform: rotate(360deg);
+    }
+}
