@@ -3,17 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-.preloader {
-    width: 200px;
-    height: 200px;
-    background-color: #e74c3c; }
 .circle {
     width: 100px;
     height: 100px;
     background-color: #e74c3c;
     border-radius: 50%;
     border: 4px solid pink;
-    margin: 25px auto;
+    position: relative;
+    margin-left: 10px;
     animation-name: round;
     animation-duration: 2000ms;
     animation-iteration-count: infinite;
